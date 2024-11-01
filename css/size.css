@@ -1,0 +1,57 @@
+.box-small {
+width: 50px;
+height: 50px;
+}
+
+.box-medium {
+width: 150px;
+height: 150px;
+}
+
+.box-big {
+width: 250px;
+height: 250px;
+}
+
+.box-large {
+width: 400px;
+height: 400px;
+}
+
+.box-xl {
+width: 500px;
+height: 500px;
+}
+
+.box-giant {
+width: 800px;
+height: 800px;
+}
+
+.font-tiny {
+font-size: 10px;
+}
+
+.font-small {
+font-size: 16px;
+}
+
+.font-medium {
+font-size: 18px;
+}
+
+.font-big {
+font-size: 24px;
+}
+
+.font-large {
+font-size: 32px;
+}
+
+.font-xl {
+font-size: 42px;
+}
+
+.font-giant {
+font-size: 64px;
+}

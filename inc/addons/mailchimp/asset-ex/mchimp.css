@@ -1,0 +1,14 @@
+#sstssfb_mchimp, #sstssfb_mchimp_result {
+display: none;
+}
+.mchimphelp {
+color: #333333;
+}
+.mchimphelp a {
+text-decoration: none;
+color: #990000;
+outline: 0 none;
+}
+#error_notification {
+color: #990000;	
+}

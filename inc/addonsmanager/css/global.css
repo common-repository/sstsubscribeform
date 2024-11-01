@@ -1,0 +1,120 @@
+#wpwrap {
+  background: #ffffff;
+}
+#wpbody {
+    padding: 0 20px 0 0;
+}
+
+ul#adminmenu a.wp-has-current-submenu:after, ul#adminmenu > li.current > a.current:after {
+  border-color: transparent #ffffff transparent transparent;
+}
+#adminmenu .opensub .wp-submenu li.current a, #adminmenu .wp-submenu li.current, #adminmenu .wp-submenu li.current a, #adminmenu .wp-submenu li.current a:focus, #adminmenu .wp-submenu li.current a:hover, #adminmenu a.wp-has-current-submenu:focus + .wp-submenu li.current a {
+  background: #ffffff;
+  color: #000000;
+}
+
+#sstssfb_tab .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    background: rgba(0,0,0,0);
+}
+#sstssfb_tab .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+    background: rgba(0,0,0,0.1);
+  color: #000000;
+  margin: 0;
+}
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited, .ui-state-focus:focus, .ui-state-focus, li a {
+    color: rgb(26, 79, 63);
+}
+.ui-state-default a:hover, .ui-state-focus:hover, li a:hover {
+color: #333333;
+}
+#sstssfb_tab {
+    background: #fafafa;
+	padding: 0;
+	font-family: Arial;
+}
+#sstssfb_tab * {
+	font-family: Arial;
+}
+#sstssfb_tab .sstssfbtabheader_area {
+    background: rgba(0,0,0,0.1);
+    /* color: #888888; */
+	padding: 10px 10px;
+}
+#sstssfb_tab .sstssfbtabheader_area span {
+    color: #888888;
+}
+#sstssfb_tab .sstssfbtabcontents_area {
+	padding: 10px 10px;
+}
+#sstssfb_tab .ui-tabs-nav {
+    background: #fafafa;
+}
+#sstssfb_tab .ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+    color: #000000;
+}
+#sstssfb_tab .tab-item, #sstssfb_tab option {
+    background: rgba(0, 0, 0, 0);
+}
+
+.install-help {
+    color: #999;
+    font-size: 18px;
+    font-style: normal;
+    margin: 0;
+    padding: 40px 0 0;
+    text-align: center;
+}
+p.install-help {
+    font-style: normal;
+}
+#addoninstallform {
+background: rgba(0, 0, 0, 0.03);
+margin: 30px auto;
+max-width: 380px;
+padding: 30px;
+text-align: center;
+}
+
+#sstssfbupload_addon {
+display: none;
+}
+
+#sstssfbupload_addon+label {
+vertical-align: baseline;
+box-shadow: 0 0 6px 3px #eeeeee inset, 0 0 3px 0 #000000;
+border-radius: 0;
+border: none;
+/* font-weight: bold; */
+}
+#sstssfbupload_addon+label:hover {
+box-shadow: 0 0 6px 3px #eeeeee inset, 0 0 1px 1px #333333;
+}
+#sstssfbstartinstall {
+	color: #333333;
+	border-radius: 0;
+	background: #ffffff;
+	box-shadow: inset 0 -5px rgba(0,0,0,0.2);
+	position: relative;
+	font-weight: bold;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	padding: 5px 16px 8px;
+}
+#sstssfbstartinstall:active {
+  top: 1px;
+  box-shadow: none;
+}
+.file_info {
+display:block;
+}
+.sppanstyle {
+background: #eeeeee;
+box-shadow: 0 0 1px 0 #333333;
+display: block;
+margin: 0 0 10px;
+padding: 5px;
+}
+.sppanstyle:hover {
+box-shadow: 0 0 1px 0 #333333 inset;
+}

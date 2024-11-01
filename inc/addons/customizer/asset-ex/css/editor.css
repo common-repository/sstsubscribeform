@@ -1,0 +1,7 @@
+.hovered {
+box-shadow: 0 0 0 2px rgb(230, 185, 8) !important;
+}
+
+.selected {
+box-shadow: 0 0 0 2px rgb(35, 230, 8) !important;
+}

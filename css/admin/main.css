@@ -1,0 +1,413 @@
+.update-nag {
+display: none;
+}
+
+#wpwrap {
+background: #ffbf00;
+}
+
+.wrap > h1, .wrap > h2 {
+background: rgb(3, 116, 16);
+color: #ffffff;
+margin: 0 0 20px;
+padding: 15px;
+position: relative;
+}
+
+.wrap > h1 .page-title-action, .wrap > h2 .page-title-action {
+background: #000000;
+box-shadow: 0 3px 1px 0 rgba(0,0,0,0.3);
+color: #ffffff;
+position: relative;
+transition: 0.5s ease-in;
+}
+.wrap > h1 .page-title-action:hover, .wrap > h2 .page-title-action:hover {
+background: #0a6b12;
+box-shadow: 0 3px 1px 0 rgba(0,0,0,0.3);
+top: -4px;
+}
+.wrap > h1 .page-title-action:active, .wrap > h2 .page-title-action:active {
+background: rgb(235, 88, 26);
+box-shadow: 0 1px 1px 0 rgba(0,0,0,0.3);
+top: -2px;
+transition: 0s ease-in;
+}
+
+.wp-admin p input[type="checkbox"], .wp-admin p input[type="radio"], td > input[type="checkbox"] {
+bottom: 0;
+margin: 0;
+position: relative;
+vertical-align: middle;
+}
+
+#minor-publishing,
+#submitdiv h3,
+.handlediv,
+.hndle, .ui-sortable-handle
+{
+display:none;
+}
+.media-modal {
+z-index:999;
+}
+#edit-slug-box {
+display: none;
+}
+#post-body.columns-2 #side-sortables {
+min-height: 0;
+}
+#submitdiv {
+background: none;
+width: 100%;
+margin: 0;
+}
+#submitdiv {
+z-index:9;
+}
+#publish {
+border-radius: 0;
+border: none;
+box-shadow: 0 23px 8px -12px rgba(0, 0, 0, 0.3);
+position: relative;
+}
+#publish:hover {
+top: -1px;
+box-shadow: 0 26px 8px -10px rgba(0, 0, 0, 0.3);
+}
+#publish:active {
+top: 1px;
+box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+#message {
+background: #0a7d12;
+color: #ffffff;
+}
+button.notice-dismiss {
+background: #0a8e12;
+color: #ffffff;
+padding: 10px 12px 8px 7px;
+width: auto;
+}
+button.notice-dismiss:before {
+font-size: 28px;
+color: #ffffff;
+}
+#delete-action {
+line-height: 1.4em;
+}
+#delete-action a {
+margin: 1px 0 0 0;
+color: #990000;
+background: #000000;
+cursor: pointer;
+}
+#delete-action a:hover {
+color: #000000;
+background: #990000;
+}
+#delete-action a:active {
+color: #ffffff;
+background: #000000;
+}
+#delete-action a:focus {
+box-shadow: none;
+}
+#poststuff h3 {
+font-size: 18px;
+padding:0;
+}
+#major-publishing-actions .submitdelete, #major-publishing-actions  .deletion{}
+
+#major-publishing-actions {
+background: none;
+border: none;
+padding: 5px;
+}
+#titlediv #title {
+background: rgb(235, 88, 26);
+border: none;
+box-shadow: none;
+font-size: 1.5em;
+color: #ffffff;
+}
+#titlediv #title-prompt-text {
+font-family: Verdana;
+font-size: 1.2em;
+padding: 8px 10px;
+color: #ffffff;
+font-weight: bold;
+}
+#post-body-content, .edit-form-section {
+margin: 0;
+}
+#poststuff #postbox-container-1 {
+width: 100%;
+margin: 10px 0;
+float: right;
+}
+.postbox .inside {
+padding: 0;
+}
+#poststuff .inside {
+margin: 0;
+}
+.postbox {
+border: none;
+box-shadow: none;
+}
+
+ul#adminmenu a.wp-has-current-submenu:after, ul#adminmenu > li.current > a.current:after {
+border-color: transparent #ffbf00 transparent transparent;
+}
+#adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head, #adminmenu .wp-menu-arrow, #adminmenu .wp-menu-arrow div, #adminmenu li.current a.menu-top, #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu, .folded #adminmenu li.current.menu-top, .folded #adminmenu li.wp-has-current-submenu {
+background: #000000;
+color: #ffffff;
+}
+#adminmenu .current div.wp-menu-image:before, #adminmenu .wp-has-current-submenu div.wp-menu-image:before, #adminmenu a.current:hover div.wp-menu-image:before, #adminmenu a.wp-has-current-submenu:hover div.wp-menu-image:before, #adminmenu li.wp-has-current-submenu a:focus div.wp-menu-image:before, #adminmenu li.wp-has-current-submenu.opensub div.wp-menu-image:before, #adminmenu li.wp-has-current-submenu:hover div.wp-menu-image:before {
+color: #ffffff;
+}
+#adminmenu .opensub .wp-submenu li.current a, #adminmenu .wp-submenu li.current, #adminmenu .wp-submenu li.current a, #adminmenu .wp-submenu li.current a:focus, #adminmenu .wp-submenu li.current a:hover, #adminmenu a.wp-has-current-submenu:focus + .wp-submenu li.current a {
+background: #ffbf00;
+color: #990000;
+}
+
+#country_items {
+float: left;
+}
+#country_items .sstssfb_sltmultiple {
+padding: 0;
+height: 148px;
+}
+#additional_rules {
+float: left;	
+margin: 0 15px 0 0;
+}
+#controller_box {
+background: #ffffff;
+}
+#additional_rules label, #mainboard label {}
+/*jquery tabs customization*/
+#sstssfb_tab {
+box-sizing: border-box;
+border: none;
+display: none;
+font-family: Verdana, 'Open Sans', sans-serif;
+background: #3abf78;
+padding: 0 0 5px;
+}
+#sstssfb_tab .ui-widget-content{
+color: #333333;
+}
+#sstssfb_tab .tab-item, #sstssfb_tab option {
+background: rgba(0,0,0,0.1);
+font-family: Arial, 'Open Sans', sans-serif;
+}
+#sstssfb_tab span {
+font-family: Helvetica,Arial,sans-serif;
+}
+#sstssfb_tab .dashicons {
+font-family: dashicons;
+}
+.ui-tabs, .ui-widget, .ui-widget-content, .ui-corner-all {
+border-radius: 0;
+background: none;
+}
+.ui-tabs-nav {
+border: none;
+padding: 0;
+}
+.ui-state-default {
+border-radius: 0;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+background: rgb(255, 155, 13);
+box-shadow: 0 -3px 0 rgba(0, 0, 0, 0.08) inset;
+color: #ffffff;
+text-align: center;
+}
+.ui-state-default:hover, .ui-widget-content .ui-state-default:hover, .ui-widget-header .ui-state-default:hover {
+color: #e8d60b;
+}
+
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited, .ui-state-focus:focus, .ui-state-focus, li a {
+border:0;
+color: rgb(26, 79, 63);
+outline:0px !important;
+outline-color: transparent;
+-webkit-appearance:none;
+box-shadow:none;
+font-family: Arial;
+}
+.ui-tabs .ui-tabs-nav li a, .ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-active a {
+font-family: Arial;
+}
+.ui-state-default a:hover, .ui-state-focus:hover, li a:hover {
+color: #ffffff;
+}
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button {
+color: #000000;
+}
+.ui-widget input:focus, .ui-widget select:focus, .ui-widget textarea:focus, .ui-widget button:focus {
+border: 1px solid #ddd;
+outline:0px !important;
+-webkit-appearance:none;
+box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08) inset;
+background: #eaeaea;
+color: #000000;
+}
+
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+color: #ffffff;
+text-decoration: none;
+border:0;
+outline :none !important;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+background: rgb(26, 79, 63);
+border-bottom: 1px solid #000000;
+color: #ffffff;
+font-weight: bold;
+}
+.ui-tabs .ui-tabs-nav {
+padding: 0;
+}
+.ui-tabs .ui-tabs-nav li {
+border: none;
+margin: 0;
+border-right: 1px solid rgba(0,0,0,0.1);
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+box-shadow:none;
+}
+#ui-datepicker-div {
+background: #d54e21;
+color: #ffffff;
+}
+.ui-datepicker .ui-datepicker-title {
+color: #ffffff;
+}
+.ui-datepicker-next-hover span{
+background-image: url("../images/ui-icons_999999_256x240.png") !important;
+background-position: -48px -192px;
+}
+.ui-datepicker-prev-hover span{
+background-image: url("../images/ui-icons_999999_256x240.png") !important;
+background-position: -80px -192px;
+}
+/*end tabs*/
+#cookies_expr {
+font-size: 11px;
+padding: 3px;
+}
+.sstssfb_label_class {
+font-size: 11px;
+}
+/*Additional Setting Rules*/
+#sstssfb_tab .hidden, .hidden {
+display: none;
+}
+.clear {
+clear: both;
+}
+#screen-options-link-wrap {
+display: none;
+}
+.mashsb_fivestar {
+display: none;
+}
+
+/*******************************************************************************************************************************/
+/*RESET*/
+/*******************************************************************************************************************************/
+.tab-item h1, 
+.tab-item h2, 
+.tab-item h3, 
+.tab-item h4, 
+.tab-item h5, 
+.tab-item h6 {
+font-family: Arial;
+}
+
+.tab-item h1{
+font-size: 28px;
+font-weight: bold;
+} 
+.tab-item h2 {
+font-size: 24px;
+}  
+.tab-item h3 {
+font-size: 20px;
+}  
+.tab-item h4 {
+font-size: 16px;
+}  
+.tab-item h5 {
+font-size: 14px;
+}  
+.tab-item h6 {
+font-size: 12px;
+}
+.tab-item {
+font-family: 'Open Sans', sans-serif;
+}
+/*******************************************************************************************************************************/
+/*end RESET*/
+/*******************************************************************************************************************************/
+
+/*******************************************************************************************************************************/
+/*On Off Switch*/
+/*******************************************************************************************************************************/
+#sstssfb_submit_div_extra {		
+float: left;
+}
+
+.onoffswitch {
+position: relative; width: 72px;
+-webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;	
+float: left;
+margin: 5px 0 0;
+}
+#sstssfb_onoffswitch {
+display: none;
+}
+.onoffswitch-label {
+display: block; overflow: hidden; cursor: pointer;
+}
+.onoffswitch-inner {
+display: block; width: 200%; margin-left: -100%;
+transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+display: block; float: left; width: 50%; height: 23px; padding: 0; line-height: 23px;
+font-size: 12px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+content: "Active";
+padding-left: 9px;
+background-color: #0F543C; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+content: "Off";
+padding-right: 9px;
+background-color: #B31B1B; color: #ffffff;
+text-align: right;
+}
+.onoffswitch-switch {
+display: block; width: 13px; margin: 5px 3px;
+background: #E0300D;
+position: absolute; top: 0; bottom: 0;
+right: 50px;
+transition: all 0.3s ease-in 0s;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+right: 0px;
+background: #3abf78; margin: 5px;
+
+}
+/*******************************************************************************************************************************/
+/*end On Off Switch*/
+/*******************************************************************************************************************************/

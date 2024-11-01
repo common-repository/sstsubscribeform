@@ -1,0 +1,184 @@
+#wpwrap {
+background: rgb(26, 88, 63);
+}
+.wrap > h1, h2 {
+color: #ffffff;
+display: inline-block;
+}
+#screen-meta {
+background: rgb(255, 155, 13);
+color: #ffffff;
+box-shadow: none;
+border: none;
+}
+#screen-options-link-wrap {
+display: block;
+}
+#screen-options-wrap .metabox-prefs {
+display: none;
+}
+#contextual-help-wrap h5, #screen-options-wrap h5 {
+font-size: 18px;
+margin: 8px 0 0;
+}
+#contextual-help-link-wrap, #screen-options-link-wrap{
+border: none;
+background: none;
+}
+#screen-meta-links .show-settings {
+color: #ffffff;
+border-radius: 0;
+background: #ffbf00;
+box-shadow: inset 0 -3px rgba(0,0,0,0.1);
+position: relative;
+font-weight: bold;
+border: none;
+}
+#screen-meta-links .show-settings:hover, #screen-meta-links .show-settings:focus {
+color: #0a7d12;
+
+}
+#screen-meta-links .show-settings:after {
+color: #0a7d12;
+}
+#screen-options-apply {
+color: #ffffff;
+border-radius: 0;
+background: #0a7d12;
+box-shadow: inset 0 -3px rgba(0,0,0,0.1);
+position: relative;
+font-weight: bold;
+border: none;
+}
+#screen-options-apply:active, #screen-meta-links .show-settings:active {
+top: 1px;
+box-shadow: none;
+border: none;
+}
+#edit_sstssfb_builder_per_page {
+background: #ffbf00;
+color: #ffffff;
+border: none;
+}
+#edit_sstssfb_builder_per_page:focus {
+box-shadow: none;
+}
+
+.sstssfb_pagination_head {
+display: none;
+background: #ffbf00;
+margin: 5px 0;
+color: #d54e23;
+padding: 5px 10px;
+font-weight: bold;
+}
+.sstssfb_pagination_head .table-paging, .sstssfb_pagination_head .displaying-num {
+display: inline-block;
+}
+.sstssfb_pagination_head .displaying-num {
+margin: 0 10px 0 0;
+color: #ffffff;
+font-size: 28px;
+}
+.sstssfb_pagination_head #table-paging, .sstssfb_pagination_head .paging-input {
+color: #000000;
+margin: 0 10px 0;
+position: relative;
+bottom: 3px;
+}
+.tablenav-pages .current-page {
+background: #d54e23;
+color: #ffffff;
+border: none;
+position: relative;
+padding: 0;
+}
+.tablenav-pages .current-page:focus {
+background: #ffbf00;
+color: #990000;
+box-shadow: 0 0 1px #0a7b12;
+}
+.sstssfb_pagination_head a, .tablenav-pages-navspan {
+border: none;
+display: inline-block;
+font-size: 28px;
+font-weight: bold;
+line-height: 1;
+min-width: 17px;
+padding: 0px 10px 4px;
+text-align: center;
+text-decoration: none;
+color: #ffffff;
+}
+.sstssfb_pagination_head a {
+background: #0a6b12;
+}
+.tablenav-pages-navspan {
+background: #000000;
+height: 28px;
+}
+.sstssfb_pagination_head a:focus {
+box-shadow: none;
+}
+.sstssfb_pagination_head a:hover {
+color: #990000;
+}
+table.wp-list-table {
+background: #3abf78;
+}
+
+.wp-list-table thead tr {
+background: rgb(26, 79, 63);
+}
+.wp-list-table #actions {
+position: relative;
+}
+
+.wp-list-table thead tr th, th.sortable a span, th.sorted a span {
+color: #318358;
+font-weight: bold;
+font-size: 38px;
+}
+
+.wp-list-table tbody tr {
+position: relative;
+}
+
+.alternate, .striped > tbody > *:nth-child(2n+1), ul.striped > *:nth-child(2n+1) {
+background: rgba(0,0,0,0.1);
+}
+.widefat td, .widefat th {
+padding: 28px 10px 13px;
+}
+.widefat thead td, .widefat thead th {
+border: none;
+}
+
+.wp-list-table a {
+color: #000000;
+text-shadow: 1px 1px 1px #000000;
+font-size: 18px !important;
+font-weight: normal;
+}
+
+.wp-list-table a:hover {
+color: #ffbf00;
+text-shadow: 1px 1px 1px #000000;
+font-weight: bold;
+}
+
+.wp-list-table a:focus {
+box-shadow: none;
+}
+
+#menu-management .menu-edit, #menu-settings-column .accordion-container, .comment-ays, .feature-filter, .imgedit-group, .manage-menus, .menu-item-handle, .popular-tags, .stuffbox, .widget-inside, .widget-top, .widgets-holder-wrap, .wp-editor-container, p.popular-tags, table.widefat {
+border: medium none;
+box-shadow: none;
+}
+ul#adminmenu a.wp-has-current-submenu:after, ul#adminmenu > li.current > a.current:after {
+border-color: transparent rgb(26, 88, 63) transparent transparent;
+}
+#adminmenu .opensub .wp-submenu li.current a, #adminmenu .wp-submenu li.current, #adminmenu .wp-submenu li.current a, #adminmenu .wp-submenu li.current a:focus, #adminmenu .wp-submenu li.current a:hover, #adminmenu a.wp-has-current-submenu:focus + .wp-submenu li.current a {
+background: rgb(26, 88, 63);
+color: #ffffff;
+}

@@ -1,0 +1,332 @@
+/*The main wrapper id should be put on the top of stylesheet to prevent merging selector like #wrapperh12333*/
+#sstssfb_orangebox_wrapper {
+width: 210px;
+}
+
+/*
+Don't let your wordpress theme's css rules you, kid!
+*/
+#sstssfb_orangebox_wrapper *,
+#sstssfb_orangebox_wrapper *:before,
+#sstssfb_orangebox_wrapper *:after {
+backface-visibility:visible;background:none;border:none;border-radius:0;bottom:auto;box-shadow:none;box-sizing:border-box;caption-side:top;clear:none;clip:auto;color:#000000;columns:auto;column-count:auto;column-fill:balance;column-gap:normal;column-rule:medium none currentColor;column-rule-color:currentColor;column-rule-style:none;column-rule-width:none;column-span:1;column-width:auto;content:normal;counter-increment:none;counter-reset:none;cursor:auto;direction:ltr;display:inline;empty-cells:show;float:none;font:normal;font-family:Arial;font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;height:auto;hyphens:none;left:auto;letter-spacing:normal;line-height:normal;list-style:none;list-style-image:none;list-style-position:outside;list-style-type:disc;margin:0;max-height:none;max-width:none;min-height:0;min-width:0;opacity:1;orphans:0;outline:0;outline-color:invert;outline-style:none;outline-width:medium;overflow:visible;overflow-x:visible;overflow-y:visible;padding:0;page-break-after:auto;page-break-before:auto;page-break-inside:auto;perspective:none;perspective-origin:50%50%;position:static;quotes:'\201C''\201D''\2018''\2019';right:auto;tab-size:8;table-layout:auto;text-align:left;text-align-last:auto;text-decoration:none;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-shadow:none;text-transform:none;top:auto;transform:none;transform-style:flat;transition:none;transition-delay:0s;transition-duration:0s;transition-property:none;transition-timing-function:ease;unicode-bidi:normal;vertical-align:baseline;visibility:visible;white-space:normal;widows:0;width:auto;word-spacing:normal;z-index:auto;
+}
+#sstssfb_orangebox_wrapper div {
+	display: block;
+}
+/*
+Ok! It's enough! Terrorist won't be able to attack you anymore! Go, develop your own styles!
+*/
+
+#sstssfb_orangebox_wrapper .sstform_wrapper {
+width: 100%;
+background: #ff8e08;
+font-weight: bold;
+line-height: 1.2em;
+padding: 10px;
+}
+
+#sstssfb_orangebox_wrapper .sst_formheaderbgr {
+text-align: center;
+position: relative;
+}
+
+#sstssfb_orangebox_wrapper .sst_heading_text {
+font-size: 16px;
+font-family: Arial;
+font-weight: bold;
+z-index: 9;
+position: relative;
+display: block;
+text-align: center;
+color: #ffffff;
+}
+
+#sstssfb_orangebox_wrapper .input_wrapper {
+padding: 0 5px;
+margin: 10px 0 5px;
+}
+
+#sstssfb_orangebox_wrapper .inside_wrapper {
+margin: 0 0 5px;
+background: rgb(228, 228, 228);
+position: relative;
+}
+
+#sstssfb_orangebox_wrapper input {
+display: block;
+width: 100%;
+box-sizing: border-box;
+vertical-align: middle;
+padding: 5px;
+font-size: 13px;
+}
+#sstssfb_orangebox_wrapper .sstssfb_input {
+position: relative;
+box-shadow: none;
+color: #000000;
+background: #ffffff;
+}
+#sstssfb_orangebox_wrapper .sstssfb_input:active,
+#sstssfb_orangebox_wrapper .sstssfb_input:focus {
+box-shadow: inset 0 0 88px rgb(26, 136, 83);
+color: #ffffff;
+}
+#sstssfb_orangebox_wrapper input:-webkit-input-placeholder {
+color: #666666;
+}
+#sstssfb_orangebox_wrapper input:-moz-placeholder {
+color: #666666;
+}
+
+#sstssfb_orangebox_wrapper .subscribe_button {
+  position: relative;
+  vertical-align: top;
+  padding: 6px 0;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+  background: #f96308;
+  border: 0;
+  cursor: pointer;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: inset 0 -5px rgba(0, 0, 0, 0.18);
+  margin: 3px 0 0;
+  color: #ffffff;
+  height: 30px;
+}
+
+#sstssfb_orangebox_wrapper .subscribe_button:hover {
+background: rgba(217,82,4,1);
+background: -moz-linear-gradient(top, rgba(217,82,4,1) 0%, rgba(249,99,8,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(217,82,4,1)), color-stop(100%, rgba(249,99,8,1)));
+background: -webkit-linear-gradient(top, rgba(217,82,4,1) 0%, rgba(249,99,8,1) 100%);
+background: -o-linear-gradient(top, rgba(217,82,4,1) 0%, rgba(249,99,8,1) 100%);
+background: -ms-linear-gradient(top, rgba(217,82,4,1) 0%, rgba(249,99,8,1) 100%);
+background: linear-gradient(to bottom, rgba(217,82,4,1) 0%, rgba(249,99,8,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d95204', endColorstr='#f96308', GradientType=0 );
+}
+
+#sstssfb_orangebox_wrapper .subscribe_button:active {
+top: 1px;
+outline: none;
+box-shadow: none;
+}
+
+#sstssfb_orangebox_wrapper .no_spam_message {
+	text-align: center;
+	position: relative;
+}
+
+#sstssfb_orangebox_wrapper .no_spam_message span{
+	color: #ffffff;
+	font-weight: normal;
+	font-size: 10px;
+}
+
+/****************************************************************
+*** Common theme's css rules
+****************************************************************/
+#sstssfb_orangebox_wrapper .clear {
+	clear:both;
+}
+#sstssfb_orangebox_wrapper .required_field_asterisk:after {
+bottom: 0;
+box-sizing: border-box;
+color: #990000;
+content: "*";
+display: block;
+font-size: 15px;
+height: 10px;
+margin: auto;
+padding: 0 3px;
+position: absolute;
+right: 3px;
+top: 0;
+z-index: 999;
+}
+/**********************************************************
+************* Tooltip
+***********************************************************/
+#sstssfb_orangebox_wrapper .tooltip_right:after,
+#sstssfb_orangebox_wrapper .tooltip_left:after,
+#sstssfb_orangebox_wrapper .tooltip_right:before,
+#sstssfb_orangebox_wrapper .tooltip_left:before,
+#sstssfb_orangebox_wrapper .tooltip_top:after,
+#sstssfb_orangebox_wrapper .tooltip_bottom:after,
+#sstssfb_orangebox_wrapper .tooltip_top:before,
+#sstssfb_orangebox_wrapper .tooltip_bottom:before {
+box-sizing: border-box;
+color: #ffffff;
+position: absolute;
+z-index: 999999;
+white-space : nowrap;
+transition: ease 1s;
+}
+
+#sstssfb_orangebox_wrapper .tooltip_right:after,
+#sstssfb_orangebox_wrapper .tooltip_left:after,
+#sstssfb_orangebox_wrapper .tooltip_right:before,
+#sstssfb_orangebox_wrapper .tooltip_left:before {
+bottom: 0;
+top: 0;
+display: block;
+}
+
+#sstssfb_orangebox_wrapper .tooltip_top:after,
+#sstssfb_orangebox_wrapper .tooltip_bottom:after,
+#sstssfb_orangebox_wrapper .tooltip_top:before,
+#sstssfb_orangebox_wrapper .tooltip_bottom:before {
+left: 0;
+right: 0;
+display: table;
+}
+
+#sstssfb_orangebox_wrapper .tooltip_right:before,
+#sstssfb_orangebox_wrapper .tooltip_left:before,
+#sstssfb_orangebox_wrapper .tooltip_top:before,
+#sstssfb_orangebox_wrapper .tooltip_bottom:before {
+content: "";
+font-size: 0;
+line-height: 0;
+height: 0;
+width: 0;
+margin: auto;
+background: transparent;
+}
+
+#sstssfb_orangebox_wrapper .tooltip_right:after,
+#sstssfb_orangebox_wrapper .tooltip_left:after,
+#sstssfb_orangebox_wrapper .tooltip_top:after,
+#sstssfb_orangebox_wrapper .tooltip_bottom:after {
+content: attr(data-hint);
+font-size: 13px;
+line-height: 25px;
+height: 25px;
+background: rgb(188, 50, 35);
+box-shadow: 0 0 2px rgb(188, 50, 35);
+padding: 0 5px;
+text-align: center;
+}
+
+#sstssfb_orangebox_wrapper .tooltip_right:after {
+left: 105%;
+margin: auto auto auto 6px;
+}
+
+#sstssfb_orangebox_wrapper .tooltip_left:after {
+right: 105%;
+margin: auto 6px auto auto;
+}
+
+#sstssfb_orangebox_wrapper .tooltip_top:after {
+bottom: 105%;
+margin: auto auto 6px auto;
+}
+
+#sstssfb_orangebox_wrapper .tooltip_bottom:after {
+top: 105%;
+margin: 6px auto auto auto;
+}
+
+#sstssfb_orangebox_wrapper .tooltip_right:before {
+left: 105%;
+border-top: 5px solid transparent;
+border-bottom: 5px solid transparent;
+border-right: 6px solid rgb(188, 50, 35);
+}
+
+#sstssfb_orangebox_wrapper .tooltip_left:before {
+right: 105%;
+border-top: 5px solid transparent;
+border-bottom: 5px solid transparent;
+border-left: 6px solid rgb(188, 50, 35);
+}
+
+#sstssfb_orangebox_wrapper .tooltip_top:before {
+bottom: 105%;
+border-left: 5px solid transparent;
+border-right: 5px solid transparent;
+border-top: 6px solid rgb(188, 50, 35);
+}
+
+#sstssfb_orangebox_wrapper .tooltip_bottom:before {
+top: 105%;
+border-left: 5px solid transparent;
+border-right: 5px solid transparent;
+border-bottom: 6px solid rgb(188, 50, 35);
+}
+
+#sstssfb_orangebox_wrapper .tooltip_right_m:before,
+#sstssfb_orangebox_wrapper .tooltip_right_m:after  {
+left: 99%;
+}
+
+#sstssfb_orangebox_wrapper .tooltip_left_m:before,
+#sstssfb_orangebox_wrapper .tooltip_left_m:after {
+right: 99%;
+}
+
+#sstssfb_orangebox_wrapper .tooltip_top_m:before,
+#sstssfb_orangebox_wrapper .tooltip_top_m:after  {
+bottom: 83%;
+}
+
+#sstssfb_orangebox_wrapper .tooltip_bottom_m:before,
+#sstssfb_orangebox_wrapper .tooltip_bottom_m:after {
+top: 83%;
+}
+/****************
+************************* end Tooltip
+****************/
+
+/************************************************************
+************ Response
+*************************************************************/
+#sstssfb_orangebox_wrapper .response,
+#sstssfb_orangebox_wrapper .responseinner {
+	display: none;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgb(0, 132, 96);
+	z-index: 9999999999;
+}
+
+#sstssfb_orangebox_wrapper .responseinner {
+height: 115px;
+display: block;
+padding: 0 5px;
+text-align: center;
+}
+
+#sstssfb_orangebox_wrapper .responseinner span{
+	color: #ffffff;
+	font-family: Verdana;
+}
+
+#sstssfb_orangebox_wrapper .closeresponse {
+	position: absolute;
+	color: #ffffff;
+	font-family: Verdana;
+	width: 18px;
+	height: 18px;
+	top: 5px;
+	right: 5px;
+	line-height: 18px;
+	font-weight: bold;
+	font-size: 13px;
+	z-index: 9999999999;
+	text-align: center;
+	cursor: pointer;
+}
+#sstssfb_orangebox_wrapper .closeresponse:hover {
+	background: #000000;
+}
+/****************
+************************* end Response
+****************/

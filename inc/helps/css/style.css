@@ -1,0 +1,19 @@
+h2 {
+color: #000000;
+margin: 25px 0 0;
+font-weight: bold;
+}
+#documentationandhelps {
+font-family: Arial;
+}
+.video_links {
+margin: 5px 0 10px;
+}
+.video_links li a {
+color: #990000;
+text-decoration: none;
+transition: 0.5s;
+}
+.video_links li a:hover {
+text-decoration: underline;
+}

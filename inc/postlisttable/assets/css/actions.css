@@ -1,0 +1,306 @@
+.wp-list-table .column-actions {
+text-align: center;
+float: right;
+}
+
+.wp-list-table .column-actions .sstssfb_edit {
+color: #000000;
+font-size: 18px !important;
+font-weight: normal;
+}
+.wp-list-table .column-actions .sstssfb_edit:hover {
+color: rgb(26, 79, 63);
+font-weight: bold;
+}
+
+.wp-list-table .column-actions .sstssfb_clone {
+color: #ffffff;
+font-size: 18px !important;
+font-weight: normal;
+}
+.wp-list-table .column-actions .sstssfb_clone:hover {
+color: #ffbf00;
+font-weight: bold;
+}
+
+.wp-list-table .column-actions .sstssfb_delete {
+color: #990000;
+font-size: 18px !important;
+font-weight: normal;
+}
+.wp-list-table .column-actions .sstssfb_delete:hover {
+color: #000000;
+font-weight: bold;
+}
+
+.sstssfb_action_icons {
+display: block;	
+}
+.sstssfb_action_icons .action_icons {
+cursor: pointer;
+text-shadow: 0 1px 1px rgb(26, 79, 63);
+position: relative;
+}
+.sstssfb_action_icons a:focus {
+box-shadow: none;
+}
+.sstssfb_action_icons .action_icons:hover {
+text-shadow: 0 1px 2px #ffffff;
+top: -1px;
+}
+.sstssfb_action_icons .action_icons:active {
+text-shadow: 0 0 1px #ffffff;
+top: 0;
+}
+.sstssfb_action_icons .active {
+color: #0a7b12;
+}
+.sstssfb_action_icons .inactive {
+color: #990000;
+}
+.sstssfb_action_icons .incomplete_email {
+color: rgb(118, 8, 8);
+}
+.sstssfb_actions_blocker {
+background: rgba(0,0,0,0.1);
+display: none;
+position: fixed;
+z-index: 999999;
+margin: auto;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+}
+
+/* LOADER */
+.sstssfb_actions_loader {
+display: none;
+width: 63px;
+height: 63px;
+margin: auto 0;
+position: fixed;
+top:auto;
+left:0;
+right:0;
+bottom:0;
+margin: auto;
+border-radius: 100%;
+box-shadow: 0 0 8px 3px #ffffff, 0 0 36px 3px #ffffff inset;
+text-align: center;
+animation: sk-rotate 2s infinite linear;
+z-index: 999999999;
+}
+
+.loader,
+.loader1,
+.loader2,
+.loader3,
+.loader4,
+.loader5,
+.loader6,
+.loader7 {
+display: block;
+position: absolute;
+top: 0;
+animation: sk-bounce 2s infinite ease-in-out;
+width: 38px;
+height: 38px;
+}
+.loader,
+.loader1,
+.loader2,
+.loader3 {
+box-shadow: 0 0 13px 3px #ffbf00, 0 0 33px 8px #ffbf00 inset;
+}
+.loader4,
+.loader5,
+.loader6,
+.loader7 {
+box-shadow: 0 0 13px 3px #0a6b12, 0 0 33px 8px #0a6b12 inset;
+}
+
+.loader {
+top: -13px;
+bottom: auto;
+right: -13px;
+}
+.loader1 {
+top: auto;
+bottom: -13px;
+right: -13px;
+-webkit-animation-delay: -0.5s;
+animation-delay: -0.5s;
+}
+.loader2 {
+top: -13px;
+bottom: auto;
+left: -13px;
+-webkit-animation-delay: -1.0s;
+animation-delay: -1.0s;
+}
+.loader3 {
+top: auto;
+bottom: -13px;
+left: -13px;
+-webkit-animation-delay: -1.5s;
+animation-delay: -1.5s;
+}
+.loader4 {
+top: -13px;
+left: -13px;
+right: -13px;
+margin: 0 auto;
+-webkit-animation-delay: -2.0s;
+animation-delay: -2.0s;
+}
+.loader5 {
+bottom: -13px;
+left: -13px;
+right: -13px;
+top: auto;
+margin: 0 auto;
+-webkit-animation-delay: -2.5s;
+animation-delay: -2.5s;
+}
+.loader6 {
+top: -13px;
+bottom: -13px;
+right: -13px;
+margin: auto 0;
+-webkit-animation-delay: -3s;
+animation-delay: -3s;
+}
+.loader7 {
+top: -13px;
+bottom: -13px;
+left: -13px;
+margin: auto 0;
+-webkit-animation-delay: -3.5s;
+animation-delay: -3.5s;
+}
+
+@keyframes sk-rotate {
+100% {
+transform: rotate(360deg);	
+width: 0px;
+height: 0px;
+bottom: 100%;
+}		
+}
+
+@keyframes sk-bounce {
+0%, 100% { 
+transform: rotate(360deg) scale(0.0);
+bottom: 100%;
+margin: 100%;
+} 50% { 
+transform: rotate(-360deg) scale(1.0);
+margin: 300%;
+top: 100%;
+}
+}
+/* End LOADER */
+
+/* CONFIRM DELETION */
+.sstssfb_confirm_deletion {
+display: none;
+position: absolute;
+width: 188px;
+height: 88px;
+top:calc(50% + 13px);
+left:0;
+right:0;
+bottom:0;
+margin: auto;
+background: #ffffff;
+text-align: center;
+z-index: 9999999;
+box-shadow: 0 0 6px 2px #000000, 0 0 0 3px #990000 inset;
+font-weight: bold;
+font-size: 12px;
+padding: 3px 5px 5px;
+}
+.sstssfb_stacking {
+background: #ffffff;
+position: relative;
+width: 100%;
+height: 100%;
+box-sizing: border-box;
+z-index: 999;
+padding: 10px 5px 5px;
+}
+.sstssfb_confirm_deletion:before {
+transform: rotate(45deg);
+content: "";
+display: block;
+left: 0;
+margin: 0 auto;
+position: absolute;
+right: 0;
+top: -10px;
+width: 26px;
+height: 26px;
+z-index: -1;
+box-shadow: 0 0 6px 2px #000000,  0 0 0 18px #990000 inset;
+}
+.del_question_main, .del_postname, .del_confirm, .del_cancel {
+font-family: Arial;
+color: #000000;
+}
+
+.del_question_main, .del_postname {
+}
+
+.del_question_main {
+display: block;
+}
+
+.del_decision {
+position: relative;
+bottom: -5px;
+width: 100%;
+box-sizing: border-box;
+margin: 0 auto;
+}
+
+.del_confirm, .del_cancel {
+display: inline-block;
+padding: 5px;
+color: #ffffff;
+width: 40%;
+cursor: pointer;
+font-size: 13px;
+position: relative;
+}
+
+.del_confirm:hover, .del_cancel:hover {
+box-shadow: 0 3px 3px 0 #333333;
+top:-1px;
+}
+.del_confirm:active, .del_cancel:active {
+box-shadow: 0 1px 1px 0 #333333;
+top: 0;
+}
+.del_warning {
+display: block;
+font-size: 11px;
+color: #330000;
+}
+.del_warning_icon {
+bottom: 1px;
+color: #990000;
+font-size: 16px;
+height: 15px;
+line-height: 15px;
+position: relative;
+vertical-align: middle;
+width: 15px;
+}
+.del_confirm {
+background: #3abf78;	
+}
+
+.del_cancel {
+background: rgb(235, 88, 26);
+}

@@ -1,0 +1,128 @@
+.sstssfbgetupdate {
+display: block;
+position: fixed;
+bottom: 0;
+left: 0;
+right: 0;
+margin: 0 auto;
+background: #062d58;
+color: #ffffff;
+cursor: pointer;
+padding: 3px;
+box-shadow: 0 0 3px #333333;
+z-index: 999999;
+}
+.sstssfbgetupdate:hover { 
+box-shadow: 0 0 5px #333333;
+padding: 5px;
+width: 33px;
+height: 33px;
+line-height: 33px;
+font-size: 33px;
+}
+#sstssfb_getupdatebysocialmedia {
+display: none;	
+text-align: center;
+font-family: Arial;
+position: fixed;
+bottom: 0;
+top: 0;
+left: 0;
+right: 0;
+width: 468px;
+height: 238px;
+margin: auto;
+background: rgb(18, 83, 163);
+color: #ffffff;
+padding: 15px;
+z-index: 9999999;
+}
+#sstssfb_getupdatebysocialmedia .sstssfbupdatenote, #sstssfb_getupdatebysocialmedia .sstssfbupdateexplain {
+display: block;	
+font-weight: bold;
+}
+#sstssfb_getupdatebysocialmedia .sstssfbupdatenote {
+font-size: 33px;
+line-height: 33px;
+text-align: center;
+}
+
+#sstssfb_getupdatebysocialmedia .sstssfbupdateexplain {
+margin: 15px 0;
+}
+
+#sstssfb_getupdatebysocialmedia .sstssfbtwitter, #sstssfb_getupdatebysocialmedia .sstssfbfacebook {
+padding: 5px 15px;
+width: 63px;
+height: 63px;
+line-height: 63px;
+font-size: 63px;
+font-weight: bold;
+cursor: pointer;
+margin: 10px 15px;
+}
+#sstssfb_getupdatebysocialmedia .sstssfbtwitter {
+color: #ffffff;
+background: #00a0f3;
+background: -moz-linear-gradient(top, #0a52a3 0%, #00a0f3 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, #0a52a3), color-stop(100%, #00a0f3));
+background: -webkit-linear-gradient(top, #0a52a3 0%, #00a0f3 100%);
+background: -o-linear-gradient(top, #0a52a3 0%, #00a0f3 100%);
+background: -ms-linear-gradient(top, #0a52a3 0%, #00a0f3 100%);
+background: linear-gradient(to bottom, #0a52a3 0%, #00a0f3 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a52a3', endColorstr='#00a0f3', GradientType=0 );
+}
+#sstssfb_getupdatebysocialmedia .sstssfbtwitter:hover {
+color: #00a0f3;
+}
+
+#sstssfb_getupdatebysocialmedia .sstssfbfacebook {
+color: #ffffff;
+background: #062d58;
+background: -moz-linear-gradient(top, #062d58 0%, #0a52a3 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, #062d58), color-stop(100%, #0a52a3));
+background: -webkit-linear-gradient(top, #062d58 0%, #0a52a3 100%);
+background: -o-linear-gradient(top, #062d58 0%, #0a52a3 100%);
+background: -ms-linear-gradient(top, #062d58 0%, #0a52a3 100%);
+background: linear-gradient(to bottom, #062d58 0%, #0a52a3 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#062d58', endColorstr='#0a52a3', GradientType=0 );
+}
+#sstssfb_getupdatebysocialmedia .sstssfbfacebook:hover {
+color: #095fa2;
+}
+#sstssfb_getupdatebysocialmedia .sstssfbcloseupdate {
+color: #000000;
+display: block;
+position: absolute;
+right: 0;
+top: 0;
+cursor: pointer;width: 28px;
+height: 28px;
+line-height: 28px;
+font-size: 28px;
+}
+#sstssfb_getupdatebysocialmedia .sstssfbcloseupdate:hover {
+color: #990000;
+}
+
+#sstssbnevershowupdatenote {
+display: none;
+}
+
+#sstssbnevershowupdatenote+label {
+background: rgb(235, 88, 26);
+color: #ffffff;
+display: block;
+font-weight: bold;
+left: 0;
+margin: 10px auto;
+position: relative;
+right: 0;
+width: 163px;
+padding: 3px;
+}
+
+#sstssbnevershowupdatenote:checked+label {
+background: #000000;
+color: #990000;
+}

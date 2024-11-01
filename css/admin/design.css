@@ -1,0 +1,127 @@
+#tab_5-secondwrapper, #tab_4-secondwrapper, #tab_3-secondwrapper, #tab_2-secondwrapper {}
+
+#sstssfb_tab .tab-item {
+padding: 0;
+}
+.ui-tabs-nav {
+background: rgb(26, 79, 63);
+}
+.sstssfbtabheader_area {
+background: rgb(26, 79, 63);
+color: #ffffff;
+padding: 20px 10px;
+display: block;
+box-sizing: border-box;
+width: 100%;
+}
+.sstssfb_tabcontent_area {
+padding: 10px;
+box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+.sstssfb_tabcontent_area select, .sstssfb_tabcontent_area input, .sstssfb_tabcontent_area button {
+height: 23px;
+line-height: 23px;
+font-size: 12px;
+padding: 0 0 0 5px;
+background: rgba(0,0,0,0.08);
+border: none;
+box-shadow: none;
+color: #ffffff; 
+font-family: Arial;
+}
+
+.sstssfb_tabcontent_area select:active {}
+
+.ui-widget input:focus, .ui-widget select:focus , .ui-widget textarea:focus, .ui-widget button:focus {
+background: rgba(0,0,0,0.1);
+border: none;
+color: #ffffff;
+box-shadow: none;
+}
+.sstssfb_tabcontent_area table {
+border-collapse: separate;
+border-spacing: 0 1px;	
+}
+.sstssfb_tabcontent_area tr {
+background: rgba(0,0,0,0.1);
+border-bottom: 1px solid rgba(0,0,0,0.01);
+}
+.sstssfb_tabcontent_area td {
+padding: 5px 10px 5px 5px;
+}
+.sstssfb_tabcontent_area label{
+color: #ffffff;
+font-weight: bold;
+}
+.sstssfb_tabcontent_area a {
+color: #ffbf00;
+font-weight: bold;
+}
+.ui-widget {
+font-size: 1em;
+}
+
+#sstssfb_position_hint .info_text b {
+color: rgb(20, 83, 83);
+}
+#sstssfb_position_hint .info_text a b{
+color: #990000;
+text-decoration: underline;
+}
+
+#sstssfb_mchimp_result .add_new_account, #mail_submit_button, #sstssfb_mchimp .cancel_new_account, #clear_dates {
+color: #ffffff;
+border-radius: 0;
+background: rgba(0,0,0,0.2);
+box-shadow: inset 0 -3px rgba(0,0,0,0.2);
+position: relative;
+border: none;
+}
+
+#clear_dates {
+height: 21px;
+line-height: 22px;
+padding: 0 8px;
+}
+
+#sstssfb_mchimp_result .add_new_account:active, #mail_submit_button:active, #sstssfb_mchimp .cancel_new_account:active, #clear_dates:active {
+top: 1px;
+box-shadow: none;
+}
+
+#by_datea, #by_dateb {
+padding: 0;
+}
+
+.date_boxcontent label {
+vertical-align: baseline;
+}
+
+div.sstssfb_error {
+padding: 10px 12px;
+background: #b31b1b;
+color: #ffffff;
+}
+div.sstssfb_error button.notice-dismiss{
+background: #e0300b;
+}
+button.notice-dismiss {
+padding: 9px 12px 9px 6px;
+right: 0;
+}
+
+/*Tab's handle down arrow - don't erase this*/
+/* .ui-state-default.ui-corner-top.ui-tabs-active.ui-state-active:before {
+border-left: 8px solid transparent;
+border-right: 8px solid transparent;
+border-top: 8px solid rgb(255, 155, 13);
+border-top: 8px solid #ffffff;
+bottom: -8px;
+content: "";
+left: 0;
+margin: 0 auto;
+position: absolute;
+right: 0;
+top: auto;
+width: 0;
+} */
